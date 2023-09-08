@@ -1,4 +1,26 @@
 <div class="card-deck">
+
+    <script>
+        function validate() {
+            var elementosRadio = document.getElementsByName("radioGroup");
+            var textoSeleccionado = "";
+            event.preventDefault();
+            
+            for (var i = 0; i < elementosRadio.length; i++) {
+                if (elementosRadio[i].checked) {
+                    textoSeleccionado = elementosRadio[i].value;
+                    break;
+                }
+            }
+
+            if (textoSeleccionado == "right"){
+                Swal.fire('😁', '¡Buen trabajo!','success')
+            }else{
+                Swal.fire('😟', 'Inténtalo de nuevo', 'error');
+            }
+        }
+    </script>
+
     <div class="card border-danger col-md-4 mb-4 display-flex">
         <h4 class="card-title font-weight-bold text-center p-3">P_PÁ</h4>
 
@@ -7,66 +29,28 @@
         </div>
         
         <div class="card-body">
-            <div class="row">
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup" aria-label="Radio button for following text input" value="P">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="P" readonly>
+            <div class="row justify-content-center">
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="P" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        P
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios2" value="C">
+                    <label class="form-check-label" for="exampleRadios2">
+                        C
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios3" value="right">
+                    <label class="form-check-label" for="exampleRadios3">
+                        A
+                    </label>
                 </div>
 
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup" aria-label="Radio button for following text input" value="C">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="C" readonly>
-                </div>
-
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup" aria-label="Radio button for following text input" value="A">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="A" readonly>
-                </div>
             </div>
-            
-
-            <script>
-                function V1() {
-                    // Obtén todos los elementos de radio con el nombre "radioGroup"
-                    var elementosRadio = document.getElementsByName("radioGroup");
-
-                    // Variable para almacenar el texto del radio button seleccionado
-                    var textoSeleccionado = "";
-
-                    event.preventDefault();
-
-                    // Itera a través de los elementos de radio para encontrar el seleccionado
-                    for (var i = 0; i < elementosRadio.length; i++) {
-                        if (elementosRadio[i].checked) {
-                            // Obtén el valor del texto del input asociado al radio button
-                            textoSeleccionado = elementosRadio[i].value;
-                            break; // Detén la iteración una vez que encuentres el seleccionado
-                        }
-                    }
-
-                    if (textoSeleccionado == "A"){
-                        alert("Respuesta correcta")
-                    }else{
-                        alert("Respuesta incorrecta")
-                    }
-                }
-            </script>
-
-
-
-            <a onclick="V1()" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
+            <a onclick="validate()" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
         </div>
     </div>
 
@@ -78,63 +62,28 @@
         </div>
         
         <div class="card-body">
-            <div class="row">
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup2" aria-label="Radio button for following text input" value="B">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="B" readonly>
+            <div class="row justify-content-center">
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="right" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        A
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios2" value="C">
+                    <label class="form-check-label" for="exampleRadios2">
+                        R
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios3" value="O">
+                    <label class="form-check-label" for="exampleRadios3">
+                        O
+                    </label>
                 </div>
 
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup2" aria-label="Radio button for following text input" value="A">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="A" readonly>
-                </div>
-
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup2" aria-label="Radio button for following text input" value="E">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="E" readonly>
-                </div>
             </div>
-
-            <script>
-                function V2() {
-                    // Obtén todos los elementos de radio con el nombre "radioGroup"
-                    var elementosRadio = document.getElementsByName("radioGroup2");
-
-                    // Variable para almacenar el texto del radio button seleccionado
-                    var textoSeleccionado = "";
-
-                    event.preventDefault();
-
-                    // Itera a través de los elementos de radio para encontrar el seleccionado
-                    for (var i = 0; i < elementosRadio.length; i++) {
-                        if (elementosRadio[i].checked) {
-                            // Obtén el valor del texto del input asociado al radio button
-                            textoSeleccionado = elementosRadio[i].value;
-                            break; // Detén la iteración una vez que encuentres el seleccionado
-                        }
-                    }
-
-                    if (textoSeleccionado == "A"){
-                        alert("Respuesta correcta")
-                    }else{
-                        alert("Respuesta incorrecta")
-                    }
-                }
-            </script>
-
-            <a onclick="V2()" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
+            <a onclick="validate()" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
         </div>
     </div>
 
@@ -146,36 +95,28 @@
         </div>
         
         <div class="card-body">
-            <div class="row">
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup3" aria-label="Radio button for following text input">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="A" readonly>
+            <div class="row justify-content-center">
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="P" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        P
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios2" value="right">
+                    <label class="form-check-label" for="exampleRadios2">
+                        U
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios3" value="A">
+                    <label class="form-check-label" for="exampleRadios3">
+                        A
+                    </label>
                 </div>
 
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup3" aria-label="Radio button for following text input">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="B" readonly>
-                </div>
-
-                <div class="input-group col-4">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <input type="radio" name="radioGroup3" aria-label="Radio button for following text input">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button" value="U" readonly>
-                </div>
             </div>
-
-            <a href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
+            <a onclick="validate()" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
         </div>
     </div>
 </div>
