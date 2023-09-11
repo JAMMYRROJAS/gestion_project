@@ -16,17 +16,14 @@
 </head>
 <body>
     <style>
-        .btn {
-            background-color: #f23c54;
-            border-color: #f23c54;
-        }
-        .rounded-circle {
-            margin-bottom: 15px;
-        }
-        .desarrollador {
-            font-weight: bold;
+        .plantitas-container {
+            display: flex;
+            gap: 20px;
+            padding-left: 30px;
+            margin-bottom: 0px;
         }
     </style>
+
     <header class="hero">
         <div class="textos-hero">
             <a class="icono-header" href="index.php"><i class="fas fa-home" style="font-size: 50px;"></i></a>
@@ -56,15 +53,22 @@ A medida que avanzamos, nos comprometemos a continuar innovando y mejorando nues
 Únete a nosotros en esta emocionante aventura de aprendizaje y descubrimiento. Juntos, podemos inspirar una nueva generación de amantes de la lectura y transformar el mundo de la educación infantil".</p>
     </section>
 
-    <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-        style="height: 100%; width: 100%;">
-        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: #f5576c;"></path>
-        </svg>
+    <div class="plantitas-container">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
+        <img src="assets/imagenes/plant-svgrepo-com.svg" alt="plantita" width="100" height="100">
     </div>
 
     <footer>
-        <div style="text-align: center; padding-bottom: 30px; background: #f5576c;">
+        <div style="text-align: center; padding-top: 30px; padding-bottom: 30px; background: #f5576c;">
             <p>© Desarrollado por GPTI-FISI</p>
         </div>
     </footer>
