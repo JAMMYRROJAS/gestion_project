@@ -20,6 +20,7 @@
         <div class="textos-hero">
             <a class="icono-header" href="/"><i class="fas fa-home" style="font-size: 50px;"></i></a>
             <h1 class="name"><?php echo $tituloHeader ?></h1>
+            <p style="font-weight: bold;"><?php echo $descripcionHeader; ?></p>
             <a href="#contenido">¡Empezemos!</a>
         </div>
         <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"

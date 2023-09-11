@@ -1,7 +1,6 @@
 <?php 
     $tituloWeb = "Oraciones";
-    $tituloHeader = "Aprendiendo a formar Oraciones";
-    $descripcionHeader = "Ayudando a aprender jugando"
+    $tituloHeader = "Aprendiendo a formar Oraciones"
 ?>
 
 <?php include_once 'layouts/header.php'; ?>

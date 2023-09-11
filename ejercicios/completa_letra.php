@@ -31,7 +31,7 @@
         <div class="card-body">
             <div class="row justify-content-center">
                 <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="P" checked>
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="P">
                     <label class="form-check-label" for="exampleRadios1">
                         P
                     </label>
@@ -64,7 +64,7 @@
         <div class="card-body">
             <div class="row justify-content-center">
                 <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="right" checked>
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="right">
                     <label class="form-check-label" for="exampleRadios1">
                         A
                     </label>
@@ -97,7 +97,7 @@
         <div class="card-body">
             <div class="row justify-content-center">
                 <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="P" checked>
+                    <input class="form-check-input" type="radio" name="radioGroup" id="exampleRadios1" value="P">
                     <label class="form-check-label" for="exampleRadios1">
                         P
                     </label>

@@ -4,7 +4,7 @@
     $descripcionHeader = "Ayudando a aprender jugando"
 ?>
 
-<?php include_once 'layouts/header.php'; ?>
+<?php include_once 'layouts/headerindex.php'; ?>
 
     <section id="contenido" class="container">
         <h2 class="titulo">¡Comienza a Aprender!</h2>

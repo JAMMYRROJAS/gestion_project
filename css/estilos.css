@@ -160,6 +160,15 @@ li{
     list-style: none;
 }
 
+.imagen-escala {
+    transition: transform 0.2s; /* Agrega una transición para el efecto de escala */
+    cursor: pointer; /* Cambia el cursor a un puntero */
+}
+
+.imagen-escala:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en el hover */
+}
+
 @media screen and (max-width:800px){
     .textos-hero h1{
         text-align: center;
