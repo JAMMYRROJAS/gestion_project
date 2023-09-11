@@ -6,7 +6,18 @@
 <?php include_once 'layouts/header.php'; ?>
 
     <div id="contenido" class="container">
-        <h2 class="titulo">¡Comienza a Aprender!</h2>
+        <div class="container">
+            <h2 class="titulo font-weight-bold">El Abecedario</h2>
+            <div class="row abc">
+                <!-- Aquí se agregarán las letras del abecedario -->
+            </div>
+        </div>
+
+        <div class="dropdown-divider border-top border-3 mb-4"></div>
+
+        <br>
+
+        <h2 class="titulo font-weight-bold mt-4">¡Ponlo a prueba!</h2>
         
         <audio id="audio" src="audios/completar_la_palabra.mp3" style="display: none;"></audio>
         <div class="audio">
