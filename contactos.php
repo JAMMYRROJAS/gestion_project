@@ -1,7 +1,6 @@
 <?php 
-    $tituloWeb = "Equipo";
-    $tituloHeader = "Equipo de desarrolladores";
-    $descripcionHeader = "Aquellos que hicieron posible la página web";
+    $tituloWeb = "Contactos";
+    $tituloHeader = "¡Contáctanos!";
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -15,23 +14,10 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <style>
-        .btn {
-            background-color: #f23c54;
-            border-color: #f23c54;
-        }
-        .rounded-circle {
-            margin-bottom: 15px;
-        }
-        .desarrollador {
-            font-weight: bold;
-        }
-    </style>
     <header class="hero">
         <div class="textos-hero">
             <a class="icono-header" href="index.php"><i class="fas fa-home" style="font-size: 50px;"></i></a>
             <h1 class="name"><?php echo $tituloHeader ?></h1>
-            <p style="font-weight: bold;"><?php echo $descripcionHeader; ?></p>
         </div>
         <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
@@ -43,38 +29,20 @@
     </header>
 
     <section id="contenidoEquipo" class="container text-center">
-    <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="assets/imagenes/descarga.jpg" alt="Generic placeholder image" width="140" height="140">
-            <p class="desarrollador">Kender Jammyr Rojas Teagua</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="assets/imagenes/descarga.jpg" width="140" height="140">
-            <p class="desarrollador">Martin Alonso Dipas Gonzales</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="assets/imagenes/descarga.jpg" width="140" height="140">
-            <p class="desarrollador">David Eduardo Saccsara Martinez</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-    </section>
-    <hr class="featurette-divider">
-    <section id="contenidoequipo2" class="container text-center">
-    <div class="row text-center">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="assets/imagenes/descarga.jpg" width="140" height="140">
-            <p class="desarrollador">Nury Marisol Marin Rodas</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="assets/imagenes/descarga.jpg" width="140" height="140">
-            <p class="desarrollador">Elide Eduardo Portocarrero Burga</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="assets/imagenes/facebook-color-svgrepo-com.svg" alt="facebookImg" width="200" height="150">
+                <h2 style="font-weight: bold;">Facebook</h2>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/imagenes/instagram-2-1-logo-svgrepo-com.svg" alt="instagramImg" width="200" height="150">
+                <h2 style="font-weight: bold;">Instagram</h2>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/imagenes/twitter-color-svgrepo-com.svg" alt="TwitterImg" width="200" height="150">
+                <h2 style="font-weight: bold;">Twitter</h2>
+            </div>
+        </div>
     </section>
 
     <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"

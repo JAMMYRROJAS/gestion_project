@@ -1,5 +1,5 @@
 <?php 
-    $tituloWeb = "Equipo";
+    $tituloWeb = "Mision";
     $tituloHeader = "Misión";
     $descripcionHeader = "Transformando el Aprendizaje de la Lectura en una Aventura de Descubrimiento para Niños";
 ?>
