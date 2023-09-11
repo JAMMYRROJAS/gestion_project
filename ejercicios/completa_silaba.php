@@ -1,3 +1,11 @@
+<style>
+    .respuesta-incorrecta {
+        display: none; /* Inicialmente, oculta las "X" */
+        color: red; /* Cambia el color a rojo para hacerlo más visible */
+        font-size: 24px; /* Cambia el tamaño de fuente */
+    }
+</style>
+
 <div class="card-deck">
 
 
@@ -20,7 +28,7 @@
                             </label>
                         </div>
                         <div class="form-check mx-4">
-                            <input class="form-check-input" type="radio" name="radioGroup1" id="1exampleRadios2" value="C A">
+                            <input class="form-check-input respuesta-incorrecta"  type="radio" name="radioGroup1" id="1exampleRadios2" value="C A">
                             <label class="form-check-label" for="1exampleRadios2">
                                 C A
                             </label>
@@ -31,7 +39,9 @@
                                 M A
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,7 +73,9 @@
                                 L O
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,7 +107,9 @@
                                 R A
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,7 +144,9 @@
                                 P E
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -162,7 +178,9 @@
                                 L I
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,7 +212,9 @@
                                 M U
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -228,7 +248,9 @@
                                 L L A
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -260,7 +282,9 @@
                                 T O
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -275,13 +299,13 @@
                 <div class="card-body">
                     <div class="row justify-content-center">
                         <div class="form-check mx-4">
-                            <input class="form-check-input" type="radio" name="radioGroup9" id="9exampleRadios1" value="C O">
+                            <input class="form-check-input correcta" type="radio" name="radioGroup9" id="9exampleRadios1" value="C O">
                             <label class="form-check-label" for="9exampleRadios1">
                                 C O
                             </label>
                         </div>
                         <div class="form-check mx-4">
-                            <input class="form-check-input correcta" type="radio" name="radioGroup9" id="9exampleRadios2" value="right">
+                            <input class="form-check-input " type="radio" name="radioGroup9" id="9exampleRadios2" value="right">
                             <label class="form-check-label" for="9exampleRadios2">
                                 T I
                             </label>
@@ -292,7 +316,9 @@
                                 S A
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -327,7 +353,9 @@
                                 G U
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -359,7 +387,9 @@
                                 J A
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
 
                 </div>
@@ -392,7 +422,9 @@
                                 M A N
                             </label>
                         </div>
-
+                        <div class="respuesta-incorrecta">
+                            <span>X</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -418,8 +450,13 @@
     for (var i = 0; i < opcionesCorrectas.length; i++) {
         if (opcionesCorrectas[i].checked) {
             respuestasCorrectas++;
+        } else {
+                // Si la opción no está seleccionada, muestra la "X"
+                var contenedorRespuestaIncorrecta = opcionesCorrectas[i].closest('.card-body').querySelector('.respuesta-incorrecta');
+                contenedorRespuestaIncorrecta.style.display = 'inline'; // Muestra la "X"
+            }
         }
-    }
+    
 
     Swal.fire({
         title: 'Respuestas correctas',
