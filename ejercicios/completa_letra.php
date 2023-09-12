@@ -200,6 +200,9 @@
     </div>
 </div>
 
+
+
+
 <script>
     function validate(num) {
         var elementosRadio = document.getElementsByName(`radioGroup${num}`);
