@@ -12,8 +12,8 @@
             color: white;
         }
         .logo {
-            place-items: center; 
-            text-align: center;/* Altura del viewport */
+            margin-left: auto;
+            margin-right: auto;/* Altura del viewport */
         }
         .logoimg {
             margin-left: auto;
