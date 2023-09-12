@@ -46,7 +46,7 @@
         </svg>
     </div>
 
-<?php include_once 'layouts/footerIndex.php';  ?>
+<?php include_once 'layouts/footer.php';  ?>
 </body>
 
 </html>

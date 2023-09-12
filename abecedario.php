@@ -29,6 +29,15 @@
         <?php include_once 'ejercicios/completa_letra.php' ?>
     </div>
 
+    <div class="container">
+        <div class="dropdown-divider border-top border-3 mb-4"></div>
+
+        <br>
+
+        <?php include_once 'ejercicios/completa_crucigrama.php' ?>
+    </div>
+
+
 
     <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
         style="height: 100%; width: 100%;">
