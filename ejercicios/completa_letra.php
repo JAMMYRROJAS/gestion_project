@@ -1,5 +1,5 @@
 <div class="card-deck">
-    <div class="card border-danger col-md-6 mb-4 display-flex">
+    <div class="card border-danger col-md-4 mb-4 display-flex">
         <h4 class="card-title font-weight-bold text-center p-3">P_PÁ</h4>
 
         <div>
@@ -32,7 +32,7 @@
         </div>
     </div>
 
-    <div class="card border-danger col-md-6 mb-4 display-flex">
+    <div class="card border-danger col-md-4 mb-4 display-flex">
         <h4 class="card-title font-weight-bold text-center p-3">MA_Á</h4>
 
         <div>
@@ -64,10 +64,43 @@
             <a onclick="validate(2)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
         </div>
     </div>
+
+    <div class="card border-danger col-md-4 mb-4 display-flex">
+        <h4 class="card-title font-weight-bold text-center p-3">AG_A</h4>
+
+        <div>
+            <img src="img/agua.png" style="width: 100%;" alt="Imagen Papá">
+        </div>
+
+        <div class="card-body">
+            <div class="row justify-content-center">
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup3" id="exampleRadios1" value="P">
+                    <label class="form-check-label" for="exampleRadios1">
+                        P
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup3" id="exampleRadios2" value="right">
+                    <label class="form-check-label" for="exampleRadios2">
+                        U
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup3" id="exampleRadios3" value="A">
+                    <label class="form-check-label" for="exampleRadios3">
+                        A
+                    </label>
+                </div>
+
+            </div>
+            <a onclick="validate(3)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
+        </div>
+    </div>
 </div>
 
 <div class="card-deck">
-    <div class="card border-danger col-md-6 mb-4 display-flex">
+    <div class="card border-danger col-md-4 mb-4 display-flex">
         <h4 class="card-title font-weight-bold text-center p-3">G_TO</h4>
 
         <div>
@@ -100,7 +133,7 @@
         </div>
     </div>
 
-    <div class="card border-danger col-md-6 mb-4 display-flex">
+    <div class="card border-danger col-md-4 mb-4 display-flex">
         <h4 class="card-title font-weight-bold text-center p-3">PER_O</h4>
 
         <div>
@@ -132,7 +165,41 @@
             <a onclick="validate(5)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
         </div>
     </div>
+
+    <div class="card border-danger col-md-4 mb-4 display-flex">
+        <h4 class="card-title font-weight-bold text-center p-3">LECH_</h4>
+
+        <div>
+            <img src="img/leche.png" style="width: 100%;" alt="Imagen Leche">
+        </div>
+
+        <div class="card-body">
+            <div class="row justify-content-center">
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup6" id="exampleRadios1" value="P">
+                    <label class="form-check-label" for="exampleRadios1">
+                        P
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup6" id="exampleRadios2" value="right">
+                    <label class="form-check-label" for="exampleRadios2">
+                        E
+                    </label>
+                </div>
+                <div class="form-check mx-4">
+                    <input class="form-check-input" type="radio" name="radioGroup6" id="exampleRadios3" value="A">
+                    <label class="form-check-label" for="exampleRadios3">
+                        A
+                    </label>
+                </div>
+
+            </div>
+            <a onclick="validate(6)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
+        </div>
+    </div>
 </div>
+
 
 
 

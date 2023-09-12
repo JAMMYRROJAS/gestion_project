@@ -1,29 +1,28 @@
 <div class="card-deck">
-    <div class="card border-danger col-md-4 mb-4 display-flex">
-        <h4 class="card-title font-weight-bold text-center p-3">P_PÁ</h4>
-
-        <div>
-            <img src="img/Papa.jpg" style="width: 100%;" alt="Imagen Papá">
+    <div class="card border-danger col-md-6 mb-4 display-flex">
+        <div class="text-center">
+            <img src="img/jugar-fulvo.gif" style="width: 80%;" alt="Imagen Papá">
         </div>
 
         <div class="card-body">
+            <h4 class="card-title font-weight-bold text-center p-3 mt-3">El niño juega con la ______.</h4>
             <div class="row justify-content-center">
-                <div class="form-check mx-4">
+                <div class="form-check mx-4 mt-3">
                     <input class="form-check-input" type="radio" name="radioGroup1" id="exampleRadios1" value="P">
                     <label class="form-check-label" for="exampleRadios1">
-                        P
+                        casa
                     </label>
                 </div>
-                <div class="form-check mx-4">
+                <div class="form-check mx-4 mt-3">
                     <input class="form-check-input" type="radio" name="radioGroup1" id="exampleRadios2" value="C">
                     <label class="form-check-label" for="exampleRadios2">
-                        C
+                        avión
                     </label>
                 </div>
-                <div class="form-check mx-4">
+                <div class="form-check mx-4 mt-3">
                     <input class="form-check-input" type="radio" name="radioGroup1" id="exampleRadios3" value="right">
                     <label class="form-check-label" for="exampleRadios3">
-                        A
+                        pelota
                     </label>
                 </div>
 
@@ -32,31 +31,30 @@
         </div>
     </div>
 
-    <div class="card border-danger col-md-4 mb-4 display-flex">
-        <h4 class="card-title font-weight-bold text-center p-3">MA_Á</h4>
-
-        <div>
-            <img src="img/Mama.jpg" style="width: 100%;" alt="Imagen Mamá">
+    <div class="card border-danger col-md-6 mb-4 display-flex">
+        <div class="text-center">
+            <img src="img/auto-rapido.gif" style="width: 80%;" alt="Imagen Papá">
         </div>
 
         <div class="card-body">
+            <h4 class="card-title font-weight-bold text-center p-3 mt-3">El _________ va veloz por la pista.</h4>
             <div class="row justify-content-center">
-                <div class="form-check mx-4">
+                <div class="form-check mx-4 mt-3">
                     <input class="form-check-input" type="radio" name="radioGroup2" id="exampleRadios1" value="right">
                     <label class="form-check-label" for="exampleRadios1">
-                        M
+                        automovil
                     </label>
                 </div>
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup2" id="exampleRadios2" value="C">
+                <div class="form-check mx-4 mt-3">
+                    <input class="form-check-input" type="radio" name="radioGroup2" id="exampleRadios2">
                     <label class="form-check-label" for="exampleRadios2">
-                        R
+                        perro
                     </label>
                 </div>
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup2" id="exampleRadios3" value="O">
+                <div class="form-check mx-4 mt-3">
+                    <input class="form-check-input" type="radio" name="radioGroup2" id="exampleRadios3">
                     <label class="form-check-label" for="exampleRadios3">
-                        O
+                        pizarra
                     </label>
                 </div>
 
@@ -64,32 +62,33 @@
             <a onclick="validate(2)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
         </div>
     </div>
+</div>
 
-    <div class="card border-danger col-md-4 mb-4 display-flex">
-        <h4 class="card-title font-weight-bold text-center p-3">AG_A</h4>
-
-        <div>
-            <img src="img/agua.png" style="width: 100%;" alt="Imagen Papá">
+<div class="card-deck">
+    <div class="card border-danger col-md-6 mb-4 display-flex">
+        <div class="text-center">
+            <img src="img/perro-robot.gif" style="width: 80%;" alt="Imagen Papá">
         </div>
 
         <div class="card-body">
+            <h4 class="card-title font-weight-bold text-center p-3 mt-3">El perro _____ es adorable.</h4>
             <div class="row justify-content-center">
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup3" id="exampleRadios1" value="P">
+                <div class="form-check mx-4 mt-3">
+                    <input class="form-check-input" type="radio" name="radioGroup3" id="exampleRadios1">
                     <label class="form-check-label" for="exampleRadios1">
-                        P
+                        asado
                     </label>
                 </div>
-                <div class="form-check mx-4">
+                <div class="form-check mx-4 mt-3">
                     <input class="form-check-input" type="radio" name="radioGroup3" id="exampleRadios2" value="right">
                     <label class="form-check-label" for="exampleRadios2">
-                        U
+                        robot
                     </label>
                 </div>
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup3" id="exampleRadios3" value="A">
+                <div class="form-check mx-4 mt-3">
+                    <input class="form-check-input" type="radio" name="radioGroup3" id="exampleRadios3">
                     <label class="form-check-label" for="exampleRadios3">
-                        A
+                        mesa
                     </label>
                 </div>
 
@@ -97,105 +96,35 @@
             <a onclick="validate(3)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
         </div>
     </div>
-</div>
 
-<div class="card-deck">
-    <div class="card border-danger col-md-4 mb-4 display-flex">
-        <h4 class="card-title font-weight-bold text-center p-3">G_TO</h4>
-
-        <div>
-            <img src="img/gato.png" style="width: 100%;" alt="Imagen gato">
+    <div class="card border-danger col-md-6 mb-4 display-flex">
+        <div class = "text-center">
+            <img src="img/sol.gif" style="width: 80%;" alt="Imagen Papá">
         </div>
-
+        
         <div class="card-body">
+            <h4 class="card-title font-weight-bold text-center p-3 mt-3">El ___ está que arde.</h4>
             <div class="row justify-content-center">
-                <div class="form-check mx-4">
+                <div class="form-check mx-4 mt-3">
                     <input class="form-check-input" type="radio" name="radioGroup4" id="exampleRadios1" value="P">
                     <label class="form-check-label" for="exampleRadios1">
-                        Ñ
+                        cerdo
                     </label>
                 </div>
-                <div class="form-check mx-4">
+                <div class="form-check mx-4 mt-3">
                     <input class="form-check-input" type="radio" name="radioGroup4" id="exampleRadios2" value="C">
                     <label class="form-check-label" for="exampleRadios2">
-                        G
+                        luna
                     </label>
                 </div>
-                <div class="form-check mx-4">
+                <div class="form-check mx-4 mt-3">
                     <input class="form-check-input" type="radio" name="radioGroup4" id="exampleRadios3" value="right">
                     <label class="form-check-label" for="exampleRadios3">
-                        A
+                        sol
                     </label>
                 </div>
-
             </div>
             <a onclick="validate(4)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
-        </div>
-    </div>
-
-    <div class="card border-danger col-md-4 mb-4 display-flex">
-        <h4 class="card-title font-weight-bold text-center p-3">PER_O</h4>
-
-        <div>
-            <img src="img/perro.png" style="width: 100%;" alt="Imagen Perro">
-        </div>
-
-        <div class="card-body">
-            <div class="row justify-content-center">
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup5" id="exampleRadios1" value="right">
-                    <label class="form-check-label" for="exampleRadios1">
-                        R
-                    </label>
-                </div>
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup5" id="exampleRadios2" value="C">
-                    <label class="form-check-label" for="exampleRadios2">
-                        P
-                    </label>
-                </div>
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup5" id="exampleRadios3" value="O">
-                    <label class="form-check-label" for="exampleRadios3">
-                        V
-                    </label>
-                </div>
-
-            </div>
-            <a onclick="validate(5)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
-        </div>
-    </div>
-
-    <div class="card border-danger col-md-4 mb-4 display-flex">
-        <h4 class="card-title font-weight-bold text-center p-3">LECH_</h4>
-
-        <div>
-            <img src="img/leche.png" style="width: 100%;" alt="Imagen Leche">
-        </div>
-
-        <div class="card-body">
-            <div class="row justify-content-center">
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup6" id="exampleRadios1" value="P">
-                    <label class="form-check-label" for="exampleRadios1">
-                        P
-                    </label>
-                </div>
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup6" id="exampleRadios2" value="right">
-                    <label class="form-check-label" for="exampleRadios2">
-                        E
-                    </label>
-                </div>
-                <div class="form-check mx-4">
-                    <input class="form-check-input" type="radio" name="radioGroup6" id="exampleRadios3" value="A">
-                    <label class="form-check-label" for="exampleRadios3">
-                        A
-                    </label>
-                </div>
-
-            </div>
-            <a onclick="validate(6)" href="" class="btn btn-outline-danger btn-block mt-4">¡HECHO!</a>
         </div>
     </div>
 </div>

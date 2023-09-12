@@ -26,7 +26,7 @@
     </div>
 
     <div class="container">
-        <?php include_once 'ejercicios/completa_letra.php' ?>
+        <?php include_once 'ejercicios/completa_oracion.php' ?>
     </div>
 
 
