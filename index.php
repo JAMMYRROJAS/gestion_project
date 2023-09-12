@@ -1,6 +1,7 @@
 <?php 
     $tituloWeb = "Inicio";
-    $tituloHeader = "Bienvenido a XXXXXX"
+    $tituloHeader = "Bienvenido a ABCDiario";
+    $descripcionHeader = "Ayudando a aprender jugando"
 ?>
 
 <?php include_once 'layouts/header.php'; ?>
@@ -45,7 +46,7 @@
         </svg>
     </div>
 
-<?php include_once 'layouts/footer.php';  ?>
+<?php include_once 'layouts/footerIndex.php';  ?>
 </body>
 
 </html>
