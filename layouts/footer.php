@@ -4,11 +4,6 @@
             margin-top: 20px;
             margin-right: 10px;
         }
-        .cuadrada {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-        }
         a {
             text-decoration: none;
             color: white;
@@ -17,14 +12,19 @@
             color: white;
         }
         .logo {
-            padding-left: 170px;
+            place-items: center; 
+            text-align: center;/* Altura del viewport */
+        }
+        .logoimg {
+            margin-left: auto;
+            margin-right: auto;/* Altura del viewport */
         }
     </style>
     <div style="display: flex; justify-content: space-between">
         <div class="contenedor" style="margin-left: 30px;">
             <ul>
-                <li class="logo" style="font-size: 40px; font-weight: bold;">FISI</li>
-                <li class="logo" style="font-size: 40px; font-weight: bold;"><a href="https://enlinea.unapiquitos.edu.pe/">UNAP</a></li>
+                <li class="logoimg" style="height: 100px; width: 100px;"><a href="https://enlinea.unapiquitos.edu.pe/"><img src="assets/logo/logoUNAP-blanco.png" alt="logoUNAPblanco"></a></li>
+                <li class="logo" style="font-size: 40px; font-weight: bold; margin-top: 50px;">Facultad de Ingeniería de Sistemas e Informática</li>
             </ul>
         </div>
         <div class="contenedor" style="margin-right: 30px;">
