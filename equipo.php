@@ -47,17 +47,17 @@
           <div class="col-lg-4">
             <img class="rounded-circle" src="assets/imagenes/profile-circle-svgrepo-com.svg" alt="Generic placeholder image" width="140" height="140">
             <p class="desarrollador">Kender Jammyr Rojas Teagua</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
+            <p>Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de la Amazonía Peruana</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="assets/imagenes/profile-circle-svgrepo-com.svg" width="140" height="140">
             <p class="desarrollador">Martin Alonso Dipas Gonzales</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
+            <p>Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de la Amazonía Peruana</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="assets/imagenes/profile-circle-svgrepo-com.svg" width="140" height="140">
             <p class="desarrollador">David Eduardo Saccsara Martinez</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
+            <p>Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de la Amazonía Peruana</p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
     </section>
@@ -67,12 +67,12 @@
           <div class="col-lg-4">
             <img class="rounded-circle" src="assets/imagenes/profile-circle-svgrepo-com.svg" width="140" height="140">
             <p class="desarrollador">Nury Marisol Marin Rodas</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
+            <p>Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de la Amazonía Peruana</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="assets/imagenes/profile-circle-svgrepo-com.svg" width="140" height="140">
             <p class="desarrollador">Elide Eduardo Portocarrero Burga</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver &raquo;</a></p>
+            <p>Estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de la Amazonía Peruana</p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
     </section>
