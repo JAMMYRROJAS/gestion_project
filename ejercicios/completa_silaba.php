@@ -243,8 +243,8 @@
                 // Si la opción no está seleccionada, muestra la "X"
                 var contenedorRespuestaIncorrecta = opcionesCorrectas[i].closest('.card-body').querySelector('.respuesta-incorrecta');
                 contenedorRespuestaIncorrecta.style.display = 'inline'; // Muestra la "X"
-            }
         }
+    }
     
 
     Swal.fire({

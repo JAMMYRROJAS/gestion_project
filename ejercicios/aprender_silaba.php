@@ -4,7 +4,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioMA" src="audios/MA.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/MA.jpg" class="fas fa-play" id="playButtonMA" style="width: 100%;" ></i>
+                <img src="img/silabas/MA.jpg" class="fas fa-play crusor-pointer imagen-escala crusor-pointer imagen-escala" id="playButtonMA" style="width: 100%;"></i>
             </div>
         </div>
         <script>
@@ -18,7 +18,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioME" src="audios/ME.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/ME.jpg" class="fas fa-play" id="playButtonME" style="width: 100%;"/>
+                <img src="img/silabas/ME.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonME" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -32,7 +32,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioMI" src="audios/MI.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/MI.jpg" class="fas fa-play" id="playButtonMI" style="width: 100%;"/>
+                <img src="img/silabas/MI.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonMI" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -46,7 +46,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioMO" src="audios/MO.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/MO.jpg" class="fas fa-play" id="playButtonMO" style="width: 100%;"/>
+                <img src="img/silabas/MO.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonMO" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -60,7 +60,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioMU" src="audios/MU.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/MU.jpg" class="fas fa-play" id="playButtonMU" style="width: 100%;"/>
+                <img src="img/silabas/MU.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonMU" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -76,7 +76,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioNA" src="audios/NA.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/NA.jpg" class="fas fa-play" id="playButtonNA" style="width: 100%;"></i>
+                <img src="img/silabas/NA.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonNA" style="width: 100%;"></i>
             </div>
         </div>
         <script>
@@ -90,7 +90,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioNE" src="audios/NE.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/NE.jpg" class="fas fa-play" id="playButtonNE" style="width: 100%;"/>
+                <img src="img/silabas/NE.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonNE" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -105,7 +105,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioNI" src="audios/NI.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/NI.jpg" class="fas fa-play" id="playButtonNI" style="width: 100%;"/>
+                <img src="img/silabas/NI.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonNI" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -120,7 +120,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioNO" src="audios/NO.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/NO.jpg" class="fas fa-play" id="playButtonNO" style="width: 100%;"/>
+                <img src="img/silabas/NO.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonNO" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -135,7 +135,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioNU" src="audios/NU.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/NU.jpg" class="fas fa-play" id="playButtonNU" style="width: 100%;"/>
+                <img src="img/silabas/NU.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonNU" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -153,7 +153,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioLA" src="audios/LA.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/LA.jpg" class="fas fa-play" id="playButtonLA" style="width: 100%;"></i>
+                <img src="img/silabas/LA.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonLA" style="width: 100%;"></i>
             </div>
         </div>
         <script>
@@ -168,7 +168,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioLE" src="audios/LE.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/LE.jpg" class="fas fa-play" id="playButtonLE" style="width: 100%;"/>
+                <img src="img/silabas/LE.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonLE" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -182,7 +182,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioLI" src="audios/LI.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/LI.jpg" class="fas fa-play" id="playButtonLI" style="width: 100%;"/>
+                <img src="img/silabas/LI.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonLI" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -196,7 +196,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioLO" src="audios/LO.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/LO.jpg" class="fas fa-play" id="playButtonLO" style="width: 100%;"/>
+                <img src="img/silabas/LO.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonLO" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -210,7 +210,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioLU" src="audios/LU.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/LU.jpg" class="fas fa-play" id="playButtonLU" style="width: 100%;"/>
+                <img src="img/silabas/LU.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonLU" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -226,7 +226,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioPA" src="audios/PA.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/PA.jpg" class="fas fa-play" id="playButtonPA" style="width: 100%;"></i>
+                <img src="img/silabas/PA.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonPA" style="width: 100%;"></i>
             </div>
         </div>
         <script>
@@ -240,7 +240,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioPE" src="audios/PE.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/PE.jpg" class="fas fa-play" id="playButtonPE" style="width: 100%;"/>
+                <img src="img/silabas/PE.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonPE" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -254,7 +254,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioPI" src="audios/PI.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/PI.jpg" class="fas fa-play" id="playButtonPI" style="width: 100%;"/>
+                <img src="img/silabas/PI.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonPI" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -268,7 +268,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioPO" src="audios/PO.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/PO.jpg" class="fas fa-play" id="playButtonPO" style="width: 100%;"/>
+                <img src="img/silabas/PO.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonPO" style="width: 100%;"/>
             </div>
         </div>
         <script>
@@ -282,7 +282,7 @@
         <div class="col-md-2 mx-auto">
             <audio id="audioPU" src="audios/PU.mp3" style=" display: 'none' "></audio>
             <div class="audio" style="border: 6px solid orange;">
-                <img src="img/silabas/PU.jpg" class="fas fa-play" id="playButtonPU" style="width: 100%;"/>
+                <img src="img/silabas/PU.jpg" class="fas fa-play crusor-pointer imagen-escala" id="playButtonPU" style="width: 100%;"/>
             </div>
         </div>
         <script>
