@@ -5,8 +5,17 @@
 
 <?php include_once 'layouts/header.php'; ?>
 
-    <div id="contenido" class="cards contenedor">
+    <div id="inicio" class="cards contenedor">
         <h2 class="titulo">¡Comienza a Aprender!</h2>
+    </div>
+
+    <div class="container">
+        <?php include_once 'ejercicios/aprender_silaba.php'?>
+    </div>
+
+
+    <div id="contenido" class="cards contenedor">
+        <h2 class="titulo">¡Practiquemos!</h2>
     </div>
 
     <div class="container">
