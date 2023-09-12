@@ -14,6 +14,15 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color:black;
+        }
+    </style>
     <header class="hero">
         <div class="textos-hero">
             <a class="icono-header" href="index.php"><i class="fas fa-home" style="font-size: 50px;"></i></a>
@@ -32,15 +41,15 @@
         <div class="row">
             <div class="col-lg-4">
                 <img src="assets/imagenes/facebook-color-svgrepo-com.svg" alt="facebookImg" width="200" height="150">
-                <h2 style="font-weight: bold;">Facebook</h2>
+                <h2 style="font-weight: bold;"><a href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a></h2>
             </div>
             <div class="col-lg-4">
                 <img src="assets/imagenes/instagram-2-1-logo-svgrepo-com.svg" alt="instagramImg" width="200" height="150">
-                <h2 style="font-weight: bold;">Instagram</h2>
+                <h2 style="font-weight: bold;"><a href="https://www.instagram.com/">Instagram</a></h2>
             </div>
             <div class="col-lg-4">
                 <img src="assets/imagenes/twitter-color-svgrepo-com.svg" alt="TwitterImg" width="200" height="150">
-                <h2 style="font-weight: bold;">Twitter</h2>
+                <h2 style="font-weight: bold;"><a href="https://twitter.com">Twitter</a></h2>
             </div>
         </div>
     </section>
