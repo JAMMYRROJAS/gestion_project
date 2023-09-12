@@ -3,6 +3,7 @@
     $tituloHeader = "Reconociendo el Abecedario"
 ?>
 
+
 <?php include_once 'layouts/header.php'; ?>
 
     <div id="contenido" class="container">
@@ -19,7 +20,7 @@
 
         <h2 class="titulo font-weight-bold mt-4">¡Ponlo a prueba!</h2>
         
-        <audio id="audio" src="audios/completar_la_palabra.mp3" style="display: none;"></audio>
+        <audio id="audio" src="audios/letra-palabra.mp3" style="display: none;"></audio>
         <div class="audio">
             <i class="fas fa-play" id="playButton"></i>
         </div>
@@ -69,6 +70,22 @@
             playButton.classList.add("fa-play");
         });
     </script>
+
+    <script>
+        // Función para reproducir el audio específico en bucle con volumen al 50%
+        function reproducirAudioEspecifico() {
+            var audioEspecifico = new Audio("audios/fondo.mp3");
+            audioEspecifico.volume = 0.3; // Establece el volumen al 50%
+            audioEspecifico.loop = true; // Reproduce en bucle
+            audioEspecifico.play();
+        }
+
+        // Ejecuta la función cuando se carga la página
+        window.addEventListener("load", reproducirAudioEspecifico);
+    </script>
+
+
+
 </body>
 
 </html>
